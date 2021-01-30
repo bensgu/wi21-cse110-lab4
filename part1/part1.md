@@ -52,10 +52,10 @@
     
 17. How are you? is printed because 2 == true is false, but the second condition is true because 2 has a boolean value of true
     
-18. 
+18. See the file part1-question18.js
     
-19. 
+19. [6, 8, 10] will be returned. First, the array is declared, and the for loop is entered. For each element of the input array, the value at the index is pushed to new array after going through the callback, in this case doSomething(). In the function doSomething(), 2 is added to the value of the input, and goes through another callback, which is located in the original for loop, which doubles the value. After doubling the value, it is finally added to the newArr array. After doing this process for all elements of the array, the function returns the newArr array.
     
-20. 
+20. See the file part1-question20.js
     
-21. 
+21. 1 4 3 2. This is because the value of 3 and 2 have a time out function attached which waits a certain number of milliseconds before printing the value to console.
