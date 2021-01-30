@@ -23,19 +23,34 @@
 12. In actuality, the variable reassignments to const variables would throw errors. However, if we ignore those errors and assume the reassignment was successful, then the function would return an array [0, 0, 0] because the variable finalPrice is const, and each time the value is pushed to the array, the array gains another 0.
     
 13. 
-    1. student.name;
-    2. student[Grad Year];
-    3. student.greeting;
-    4. student[Favorite Teacher].name;
-    5. student.courseLoad[0];
+    A. student.name;
+    B. student['Grad Year'];
+    C. student.greeting();
+    D. student['Favorite Teacher'].name;
+    E. student.courseLoad[0];
     
+      
 14. 
-    
+    A. '32' is printed because the first operand is a string and so the second operand is casted to string and concatenated with the + sign
+    B. 1 is printed because '3' is converted to a number and subtracted with 2
+    C. 3 is printed because null is converted to a value of 0
+    D. '3null' is printed because one of the operands is a string and so the other operand is casted to string and concatenated with the + sign
+    E. 4 is printed because true has a numerical value of 1
+    F. 0 is printed because both false and null are converted to numerical values of 0
+    G. '3undefined' is printed because one of the operands is a string and so the other operand is casted to string and concateneated with the + sign
+    H. NaN is printed out because undefined is converted to a numerical value, but it has none and therefore is Not a Number
+
 15. 
+    A. true, because the string 2 is converted to a number and evaluated properly
+    B. false, because when comparing the strings via their ASCII value, the 2 has a larger value than the 1 of 12, and no further comparison is done
+    C. true, because the string is converted to its numerical value and compared properly
+    D. false, because the operator === compares the types as well, and if they are not equal it returns false
+    E. false, because true has a numerical value of 1, and is evaluated properly
+    F. true, because Boolean(2) has a boolean value of true, and true === true returns true
     
-16. 
+16. === will check equality without type casting, whereas == will check equality with type casting. Therefore, with ===, if the objects have different types, it will evaluate as false
     
-17. 
+17. How are you? is printed because 2 == true is false, but the second condition is true because 2 has a boolean value of true
     
 18. 
     
